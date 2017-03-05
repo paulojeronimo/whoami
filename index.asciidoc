@@ -1,0 +1,165 @@
+*Who am I?*
+===========
+Paulo Jerônimo, {author-twitter}, {date}
+:title: whoami
+:date: 2017-02-06
+:author-twitter: @paulojeronimo
+:email: pj@paulojeronimo.net
+:description: About me
+:copyright: CC BY-SA 2.0
+:slidesurl: paulojeronimo.github.io/whoami
+:imagesdir: images
+:backend: dzslides
+:linkcss: true
+:dzslides-style: stormy
+:dzslides-transition: fade
+:dzslides-fonts: family=Yanone+Kaffeesatz:400,700,200,300&family=Cedarville+Cursive
+:dzslides-highlight: monokai
+:syntax: no-highlight
+
+// uris
+:uri-github-account: https://github.com/paulojeronimo
+
+:uri-wife: https://www.instagram.com/p/BC3ygwGNf3y/
+:uri-daughter: https://www.instagram.com/p/5U5Dz7Nfy6/
+//:uri-daughter: https://www.instagram.com/p/BB3eqgnNf5X/
+:uri-son: https://www.instagram.com/p/BKd2Fj0B4cF/
+//:uri-son: https://www.instagram.com/p/BCN93K2Nf5r/
+//:uri-son: https://www.instagram.com/p/7ixYXGtfwb/
+:uri-sons: https://www.instagram.com/p/BCKkOnttfzf/
+
+:uri-redhat-courses: https://www.redhat.com/en/services/training/courses-by-curriculum
+:uri-redhat-jboss-eap: https://developers.redhat.com/products/eap/overview/
+:uri-redhat-latam-instructors: https://www.instagram.com/p/BMrnq8phxDf/
+:uri-rhel: https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux
+:uri-cebraspe: http://www.cespe.unb.br/cebraspe/
+:uri-weblogic: https://www.oracle.com/middleware/weblogic/index.html
+:uri-uat: https://en.wikipedia.org/wiki/Acceptance_testing
+:uri-nodejs: https://nodejs.org
+:uri-docker: https://www.docker.com
+:uri-triathlon-1: https://www.instagram.com/p/25xX_vNfwO/
+:uri-ironman-1-1: https://www.instagram.com/p/afw6CnNf8L/
+:uri-ironman-1-2: https://www.instagram.com/p/aORATRtf04/
+:uri-ironman-1-3: https://www.instagram.com/p/Z62S7ZNf25/
+:uri-ironman-3-1: https://www.instagram.com/p/BNDnUOchJMs/
+:uri-2016-medals: https://www.instagram.com/p/BNFq82rBKTZ/
+:uri-teaching-1: https://www.instagram.com/p/BH1-a4aBnxI/
+:uri-teaching-2: https://www.instagram.com/p/ZYyx10Nfxa/
+:uri-week-training: https://www.instagram.com/p/BA7lOUfNf44/
+:uri-rio-marathon: https://www.instagram.com/p/X7HfALtf9V/
+:uri-ladoservidor: http://blog.ladoservidor.com
+:uri-cluster-jboss-eap-6-test: https://github.com/paulojeronimo/cluster-jboss-eap-6-test
+
+:uri-guilhermehott: https://www.linkedin.com/in/guilhermehott/
+:uri-fbscarel: https://www.linkedin.com/in/fbscarel/
+
+// agenda
+:topic1: pass:[<strong>Why</strong> do I value the <strong>time</strong>?]
+:topic2: pass:[<strong>How</strong> do I <strong>gain</strong> time?]
+:topic3: pass:[<strong>What</strong> kind of <strong>work</strong> I'm currently doing?]
+:topic4: pass:[Do I have a next <strong>dare</strong> and/or <strong>goals</strong>?]
+
+:uri-asciidoc-e-asciidoctor: https://paulojeronimo.github.io/asciidoc-e-asciidoctor
+:markdown: https://guides.github.com/features/mastering-markdown/[Markdown]
+:asciidoc: http://www.methods.co.nz/asciidoc/[asciidoc]
+:asciidoctor: http://asciidoctor.org/[asciidoctor]
+:asciidoc-dzslides-backend: https://github.com/mojavelinux/asciidoc-dzslides-backend[asciidoc-dzslides-backend]
+:DZSlides: http://paulrouget.com/dzslides/[DZSlides]
+:Vim: http://www.vim.org[Vim]
+:git: https://git-scm.org[git]
+:qrencode: https://github.com/fukuchi/libqrencode[qrencode]
+:rsync: https://pt.wikipedia.org/wiki/Rsync[rsync]
+
+[{topic}]
+== {slidesurl}
+
+['qrcode', target='presentation-qrcode.png', size=20, alt='http://{slidesurl}', role='middle stretch-y', subs='attributes']
+----
+https://{slidesurl}
+----
+
+== \\
+
+[quote, Paulo Jerônimo]
+____
+I am a guy, who values the time, developing solutions through the use of intelligent process and tools to achieve goals that I trace to my own life.
+____
+
+== \\
+
+* Agenda:
+** <<5.0,{topic1}>>
+** <<7.0,{topic2}>>
+** <<10.0,{topic3}>>
+// ** <<13.0,{topic4}>>
+
+[{intro}]
+== {topic1}
+
+== \\
+
+* I value the time because *I love (and need)* ...
+** ... to have great moments with *my wife* {uri-wife}[^1^], *daughter* {uri-daughter}[^2^] and *son* {uri-son}[^3^].
+** ... to practice my favorite sport: *triathlon* {uri-triathlon-1}[^1^] {uri-ironman-1-1}[^2^] {uri-ironman-1-2}[^3^] {uri-ironman-3-1}[^4^] {uri-2016-medals}[^5^].
+** ... to *program computers* and *automate tasks*.
+** ... to *study* and discover *new technologies*.
+** ... to *write* about my discoveries and experiences.
+** ... share my knowledge while *ministering courses* {uri-teaching-1}[^1^] {uri-teaching-2}[^2^].
+
+[{intro}]
+== {topic2}
+
+== \\
+
+* I use the best *programming languages* and *tools* that I consider *smart* to solve my problems.
+** I evaluate the right thing to choose depending on the needs.
+** If I need to learn something new to do a better job, I quickly learn.
+* I like to *automate process* that I need to follow, even the simplest.
+
+== \\
+
+* I need *space* in my brain to learn new things.
+** So, to gain it, I need to release my *ideas* ^(and/or code)^ *inside blog posts* {uri-ladoservidor}[^1 (pt-br)^] or writing docs ^(and/or code)^ in {uri-github-account}[my GitHub account].
+
+[{intro}]
+== {topic3}
+
+== \\
+
+* pass:[<u>2016-10 &#8594; Today</u>]: I {uri-redhat-latam-instructors}[work for Red Hat] as a *consultant* and *instructor* (ministering {uri-redhat-courses}[oficial courses]).
+** 2017-02 -> Today: *Migrating* a monolithic *Java EE* application from {uri-weblogic}[WebLogic] to {uri-redhat-jboss-eap}[Red Hat JBoss EAP 7].
+** *√* 2016-10 -> 2017-02: I *developed a framework* (partially published {uri-cluster-jboss-eap-6-test}[^1^]) to install new environments that runs {uri-redhat-jboss-eap}[Red Hat JBoss EAP 6.4] on {uri-rhel}[RHEL]. Also, I *migrate* several *Java EE* applications from an older JBoss EAP version (5.x) to that new environments (local, integration, {uri-uat}[uat] and production).
+
+== \\
+
+* *√* pass:[<u>2015-10 &#8594; 2016-09</u>]: *I led a small team* (some few developers and devops guys {uri-guilhermehott}[^1^] {uri-fbscarel}[^2^]). We designed a *Computer Based Test (CBT)* solution (programmed in {uri-nodejs}[Node.js] to run on {uri-docker}[Docker] containers) for {uri-cebraspe}[Cebraspe].
+* &nbsp;
+
+== \\
+
+* Read more about me or things that I coded (and/or wrote):
+** http://linkedin.com/in/paulojeronimo *(actual, en-us)*.
+** http://github.com/paulojeronimo *(actual, en-us/pt-br (mixed))*.
+** http://j.mp/curriculopj_pdf *(deprecated, pt-br, big)*.
+** http://blog.ladoservidor.com *(deprecated, pt-br)*.
+** http://paulojeronimo.info *(deprecated, pt-br)*.
+
+////
+[{intro}]
+== {topic4}
+////
+
+[{ending}, hrole="name"]
+== That's all!
+
+[role="footer"]
+http://{slidesurl}
+
+////
+https://github.com/powerman/asciidoc-cheatsheet
+https://powerman.name/doc/asciidoc
+http://www.methods.co.nz/asciidoc/userguide.html#X60
+https://gist.github.com/mojavelinux/8198e5a5ac2570a0cf30
+http://english.stackexchange.com/questions/8699/is-architect-a-verb-and-a-noun
+http://conjugator.reverso.net/conjugation-english-verb-design.html
+////
