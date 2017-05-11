@@ -1,0 +1,29 @@
+= Who am I?
+
+https://paulojeronimo.github.io/whoami[Slides] for my personal presentation.
+
+== How to build and view this slides locally
+
+. Install http://www.methods.co.nz/asciidoc/[asciidoc].
+. Clone https://github.com/paulojeronimo/whoami[this repo] and `cd` to it.
+
+----
+$ repo=https://github.com/paulojeronimo/whoami; git clone $repo && cd ${repo##*/}
+----
+
+. Inside `whoami` dir, clone https://github.com/paulojeronimo/asciidoc-builder[asciidoc-builder repo] (as `builder`):
+
+----
+$ git clone https://github.com/paulojeronimo/asciidoc-builder builder
+----
+
+[start=4]
+. Run:
+
+----
+$ ./builder/dzslides/build
+$ ./builder/dzslides/server
+----
+
+[start=5]
+. Open your browser in http://localhost:8080/target/dzslides/

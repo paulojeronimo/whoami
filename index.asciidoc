@@ -1,13 +1,10 @@
-*Who am I?*
-===========
-Paulo Jerônimo, {author-twitter}, {date}
+Who is *Paulo Jerônimo* ?
+=========================
+Last updated on {localdate}
 :title: whoami
-:date: 2017-02-06
-:author-twitter: @paulojeronimo
-:email: pj@paulojeronimo.net
 :description: About me
 :copyright: CC BY-SA 2.0
-:slidesurl: paulojeronimo.github.io/whoami
+:uri-slides: paulojeronimo.github.io/whoami
 :imagesdir: images
 :backend: dzslides
 :linkcss: true
@@ -19,6 +16,7 @@ Paulo Jerônimo, {author-twitter}, {date}
 
 // uris
 :uri-github-account: https://github.com/paulojeronimo
+:uri-slides-code: {uri-github-account}/whoami
 
 :uri-wife: https://www.instagram.com/p/BC3ygwGNf3y/
 :uri-daughter: https://www.instagram.com/p/5U5Dz7Nfy6/
@@ -30,6 +28,7 @@ Paulo Jerônimo, {author-twitter}, {date}
 
 :uri-redhat-courses: https://www.redhat.com/en/services/training/courses-by-curriculum
 :uri-redhat-jboss-eap: https://developers.redhat.com/products/eap/overview/
+:uri-redhat-single-sign-on: https://access.redhat.com/products/red-hat-single-sign-on
 :uri-redhat-latam-instructors: https://www.instagram.com/p/BMrnq8phxDf/
 :uri-rhel: https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux
 :uri-cebraspe: http://www.cespe.unb.br/cebraspe/
@@ -57,7 +56,7 @@ Paulo Jerônimo, {author-twitter}, {date}
 :topic1: pass:[<strong>Why</strong> do I value the <strong>time</strong>?]
 :topic2: pass:[<strong>How</strong> do I <strong>gain</strong> time?]
 :topic3: pass:[<strong>What</strong> kind of <strong>work</strong> I'm currently doing?]
-:topic4: pass:[Do I have a next <strong>dare</strong> and/or <strong>goals</strong>?]
+:topic4: pass:[How to <strong>contact me</strong>?]
 
 :uri-asciidoc-e-asciidoctor: https://paulojeronimo.github.io/asciidoc-e-asciidoctor
 :markdown: https://guides.github.com/features/mastering-markdown/[Markdown]
@@ -71,11 +70,11 @@ Paulo Jerônimo, {author-twitter}, {date}
 :rsync: https://pt.wikipedia.org/wiki/Rsync[rsync]
 
 [{topic}]
-== {slidesurl}
+== {uri-slides}
 
-['qrcode', target='presentation-qrcode.png', size=20, alt='http://{slidesurl}', role='middle stretch-y', subs='attributes']
+['qrcode', target='presentation-qrcode.png', size=20, alt='http://{uri-slides}', role='middle stretch-y', subs='attributes']
 ----
-https://{slidesurl}
+https://{uri-slides}
 ----
 
 == \\
@@ -91,7 +90,7 @@ ____
 ** <<5.0,{topic1}>>
 ** <<7.0,{topic2}>>
 ** <<10.0,{topic3}>>
-// ** <<13.0,{topic4}>>
+** <<17.0,{topic4}>>
 
 [{intro}]
 == {topic1}
@@ -126,14 +125,29 @@ ____
 
 == \\
 
-* pass:[<u>2016-10 &#8594; Today</u>]: I {uri-redhat-latam-instructors}[work for Red Hat] as a *consultant* and *instructor* (ministering {uri-redhat-courses}[oficial courses]).
-** 2017-02 -> Today: *Migrating* a monolithic *Java EE* application from {uri-weblogic}[WebLogic] to {uri-redhat-jboss-eap}[Red Hat JBoss EAP 7].
+* pass:[<u>2016-10 &#8594; Today</u>]: Today I am working as an *independent consultant*. Currently:
+** I am doing many works for *Red Hat* Brazil, acting as *consultant* and {uri-redhat-latam-instructors}[instructor] (ministering {uri-redhat-courses}[oficial courses]).
+
+== \\
+
+* *Working for Red Hat*, I did:
+** *√* 2017-04 -> 2017-05: I build a https://en.wikipedia.org/wiki/Proof_of_concept[PoC], that implements a https://access.redhat.com/documentation/en-us/red_hat_single_sign-on/7.1/html/server_developer_guide/user-storage-spi[User Storage Provider] for {uri-redhat-single-sign-on}/[Red Hat Single Sign-On 7.1].
+** In this PoC, the objective was import users (and roles) from an external database (Oracle) to permit autentication and authorization from it, as weel from https://msdn.microsoft.com/en-us/library/bb742424.aspx[Active Directory] (at same time).
+
+== \\
+
+* *Working for Red Hat*, I did:
+** *√* 2017-03: I did a big effort to *migrate* a *Java EE* monolithic application from {uri-weblogic}[Weblogic] to {uri-redhat-jboss-eap}[JBoss EAP 7]. But, I was unsuccessful because many components from this application was very old and need to be upgraded before this migration.
+
+== \\
+
+* *Working for Red Hat*, I did:
 ** *√* 2016-10 -> 2017-02: I *developed a framework* (partially published {uri-cluster-jboss-eap-6-test}[^1^]) to install new environments that runs {uri-redhat-jboss-eap}[Red Hat JBoss EAP 6.4] on {uri-rhel}[RHEL]. Also, I *migrate* several *Java EE* applications from an older JBoss EAP version (5.x) to that new environments (local, integration, {uri-uat}[uat] and production).
 
 == \\
 
-* *√* pass:[<u>2015-10 &#8594; 2016-09</u>]: *I led a small team* (some few developers and devops guys {uri-guilhermehott}[^1^] {uri-fbscarel}[^2^]). We designed a *Computer Based Test (CBT)* solution (programmed in {uri-nodejs}[Node.js] to run on {uri-docker}[Docker] containers) for {uri-cebraspe}[Cebraspe].
-* &nbsp;
+* pass:[<u>2015-10 &#8594; 2016-09</u>]: I worked for {uri-cebraspe}[Cebraspe] as a *project manager*.
+** *√* I led a *small team* (some few developers and devops guys {uri-guilhermehott}[^1^] {uri-fbscarel}[^2^]). We designed a *Computer Based Test (CBT)* solution (programmed in {uri-nodejs}[Node.js] to run on {uri-docker}[Docker] containers).
 
 == \\
 
@@ -144,16 +158,22 @@ ____
 ** http://blog.ladoservidor.com *(deprecated, pt-br)*.
 ** http://paulojeronimo.info *(deprecated, pt-br)*.
 
-////
 [{intro}]
 == {topic4}
-////
+
+== \\
+
+* Many forms:
+** *Cell Phone/WhatsApp*: +55 61 99504-6178
+** *Twitter*: https://twitter.com/paulojeronimo][@paulojeronimo]
+** *Email*: pj@paulojeronimo.com
+** *Skype*: paulojeronimo
 
 [{ending}, hrole="name"]
-== That's all!
+== That's all! *Slides source code:*
 
 [role="footer"]
-http://{slidesurl}
+{uri-slides-code}
 
 ////
 https://github.com/powerman/asciidoc-cheatsheet
