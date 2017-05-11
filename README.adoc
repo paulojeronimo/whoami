@@ -22,8 +22,14 @@ $ git clone https://github.com/paulojeronimo/asciidoc-builder builder
 
 ----
 $ ./builder/dzslides/build
-$ ./builder/dzslides/server
+$ ./builder/dzslides/build server
 ----
 
 [start=5]
-. Open your browser in http://localhost:8080/target/dzslides/
+. Open your browser in http://localhost:8080
+
+== How to publish on GitHub Pages
+
+----
+$ ./builder/dzslides/build publish_on_gh_pages
+----

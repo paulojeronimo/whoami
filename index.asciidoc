@@ -1,6 +1,6 @@
 Who is *Paulo Jerônimo* ?
 =========================
-Last updated on {localdate}
+Last updated: {localdate}
 :title: whoami
 :description: About me
 :copyright: CC BY-SA 2.0
@@ -182,4 +182,5 @@ http://www.methods.co.nz/asciidoc/userguide.html#X60
 https://gist.github.com/mojavelinux/8198e5a5ac2570a0cf30
 http://english.stackexchange.com/questions/8699/is-architect-a-verb-and-a-noun
 http://conjugator.reverso.net/conjugation-english-verb-design.html
+http://www.methods.co.nz/asciidoc/faq.html#_how_can_i_customize_the_localdate_format
 ////
