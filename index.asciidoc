@@ -41,13 +41,22 @@ Last updated: {localdate}
 :uri-ironman-1-2: https://www.instagram.com/p/aORATRtf04/
 :uri-ironman-1-3: https://www.instagram.com/p/Z62S7ZNf25/
 :uri-ironman-3-1: https://www.instagram.com/p/BNDnUOchJMs/
+:uri-ironman-4-1: https://www.instagram.com/p/BUraGmJl_la/
 :uri-2016-medals: https://www.instagram.com/p/BNFq82rBKTZ/
-:uri-teaching-1: https://www.instagram.com/p/BH1-a4aBnxI/
-:uri-teaching-2: https://www.instagram.com/p/ZYyx10Nfxa/
+:uri-traveling-toronto: https://www.instagram.com/p/BWsCha4lPTA/
+:uri-traveling-cordisburgo: https://www.instagram.com/p/BYvvzS9FQTy/
+:uri-traveling-bracebridge: https://www.instagram.com/p/BP0VTzoBc3Z/
+:uri-blockchain-docs-1: https://goo.gl/zYVaLz
+:uri-blockchain-videos: https://goo.gl/To4bPb
+:uri-java-se-8-fundamentals: http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=609&get_params=dc:D83527,clang:EN
+:uri-java-se-8-programming: http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=609&get_params=dc:D84838,clang:EN
+:uri-teaching-tecnisys-jb248: https://www.instagram.com/p/BH1-a4aBnxI/
+:uri-teaching-redhat-jb336: https://www.instagram.com/p/ZYyx10Nfxa/
 :uri-week-training: https://www.instagram.com/p/BA7lOUfNf44/
 :uri-rio-marathon: https://www.instagram.com/p/X7HfALtf9V/
 :uri-ladoservidor: http://blog.ladoservidor.com
 :uri-cluster-jboss-eap-6-test: https://github.com/paulojeronimo/cluster-jboss-eap-6-test
+:uri-kotlin: https://kotlinlang.org/
 
 :uri-guilhermehott: https://www.linkedin.com/in/guilhermehott/
 :uri-fbscarel: https://www.linkedin.com/in/fbscarel/
@@ -88,9 +97,9 @@ ____
 
 * Agenda:
 ** <<5.0,{topic1}>>
-** <<7.0,{topic2}>>
-** <<10.0,{topic3}>>
-** <<17.0,{topic4}>>
+** <<8.0,{topic2}>>
+** <<11.0,{topic3}>>
+** <<20.0,{topic4}>>
 
 [{intro}]
 == {topic1}
@@ -99,11 +108,18 @@ ____
 
 * I value the time because *I love (and need)* ...
 ** ... to have great moments with *my wife* {uri-wife}[^1^], *daughter* {uri-daughter}[^2^] and *son* {uri-son}[^3^].
-** ... to practice my favorite sport: *triathlon* {uri-triathlon-1}[^1^] {uri-ironman-1-1}[^2^] {uri-ironman-1-2}[^3^] {uri-ironman-3-1}[^4^] {uri-2016-medals}[^5^].
-** ... to *program computers* and *automate tasks*.
+*** *Traveling* {uri-traveling-cordisburgo}[^1^] {uri-traveling-toronto}[^2^] {uri-traveling-bracebridge}[^3^] is the best part!
+** ... to practice my favorite sport:
+*** *Triathlon* {uri-triathlon-1}[^1^] {uri-ironman-1-1}[^2^] {uri-ironman-1-2}[^3^] {uri-ironman-3-1}[^4^] {uri-2016-medals}[^5^] {uri-ironman-4-1}[^6^].
+
+== \\
+
+* I value the time because *I love (and need)* ...
+** ... to program computers (*code*) and *automate tasks*.
 ** ... to *study* and discover *new technologies*.
-** ... to *write* about my discoveries and experiences.
-** ... share my knowledge while *ministering courses* {uri-teaching-1}[^1^] {uri-teaching-2}[^2^].
+*** *Bitcoin*, *Blockchain*, and related things are my current area of research.
+** ... to *write* {uri-blockchain-docs-1}[^1^] and *talk* {uri-blockchain-videos}[^1^] about my discoveries and experiences.
+** ... share my knowledge while *ministering courses* {uri-redhat-latam-instructors}[^1^] {uri-teaching-tecnisys-jb248}[^2^] {uri-teaching-redhat-jb336}[^3^].
 
 [{intro}]
 == {topic2}
@@ -126,7 +142,24 @@ ____
 == \\
 
 * pass:[<u>2016-10 &#8594; Today</u>]: Today I am working as an *independent consultant*. Currently:
-** I am doing many works for *Red Hat* Brazil, acting as *consultant* and {uri-redhat-latam-instructors}[instructor] (ministering {uri-redhat-courses}[oficial courses]).
+** I'm working for a customer (a Brazilian company) to integrate their application to *public blockchains (Bitcoin and Dash)*.
+*** This company has an application that runs on notaries offices.
+*** *I'm developing an API* (in *Python*).
+It will be called from the company's software.
+This API will write the hashes of notary documents on the blockchains.
+
+== \\
+
+* pass:[<u>2016-10 &#8594; Today</u>]: Today I am working as an *independent consultant*. Currently:
+** I'm *coding an personal project* (in Java/{uri-kotlin}[Kotlin]) to, maybe, present it at http://www.bitconf.com.br/2017/[V Bitconf].
+*** *run.4money* (the name of this app) is a mobile app to monetize (with crypto currencies) people that participate on running races.
+
+== \\
+
+* pass:[<u>2016-10 &#8594; Today</u>]: Today I am working as an *independent consultant*. Currently:
+** I'm ministering official https://education.oracle.com/java_training/[Oracle Java] and {uri-redhat-courses}[Red Hat JBoss] courses, as an {uri-redhat-latam-instructors}[instructor] working for both companies.
+*** On https://www.epochconverter.com/weeks/2017[weeks] 37 and 38: {uri-java-se-8-fundamentals}[Java SE 8 Fundamentals] and {uri-java-se-8-programming}[Java SE 8 Programming]
+** Also, I work for *Red Hat* Brazil acting as *consultant*.
 
 == \\
 
@@ -142,7 +175,7 @@ ____
 == \\
 
 * *Working for Red Hat*, I did:
-** *√* 2016-10 -> 2017-02: I *developed a framework* (partially published {uri-cluster-jboss-eap-6-test}[^1^]) to install new environments that runs {uri-redhat-jboss-eap}[Red Hat JBoss EAP 6.4] on {uri-rhel}[RHEL]. Also, I *migrate* several *Java EE* applications from an older JBoss EAP version (5.x) to that new environments (local, integration, {uri-uat}[uat] and production).
+** *√* 2016-10 -> 2017-02: I *developed a framework* (https://paulojeronimo.github.io/jboss-domain-mode-scripts/docs/pt-br/[jboss-domain-mode-scripts]) to install new environments that runs {uri-redhat-jboss-eap}[Red Hat JBoss EAP 6.4] on {uri-rhel}[RHEL]. Also, I *migrate* several *Java EE* applications from an older JBoss EAP version (5.x) to that new environments (local, integration, {uri-uat}[uat] and production).
 
 == \\
 
